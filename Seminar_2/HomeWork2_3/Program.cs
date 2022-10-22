@@ -13,5 +13,5 @@ if (number < 1 | number > 7)
  }
 else
 {
-    Console.WriteLine("Этот день НЕ является выходным");
+    Console.WriteLine("Этот день НЕ является выходным"); 
 }
