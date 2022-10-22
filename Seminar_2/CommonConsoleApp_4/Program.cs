@@ -11,5 +11,5 @@ if (number1 % number2 == 0)
 }
 else
 {
-    Console.WriteLine($"Второе число НЕ кратно первому числу, остаток = {number1 % number2}");
+    Console.WriteLine($"Второе число НЕ кратно первому числу, остаток = {number1 % number2}"); 
 }
