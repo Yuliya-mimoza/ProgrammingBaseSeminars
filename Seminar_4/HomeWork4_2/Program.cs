@@ -5,11 +5,9 @@
 
 int SumaFigure(int a)
 {
-    int length = 0;
     int sum = 0;
-    string strNumber = Math.Abs(a).ToString();
-    length = strNumber.Length;
-
+    int length = Math.Abs(a).ToString().Length;
+    
     for (int i = 1; i <= length; i++)
     {
         sum = sum + a % 10;
