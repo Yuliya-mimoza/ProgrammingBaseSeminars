@@ -3,8 +3,17 @@
 // 78 -> 2
 // 89126 -> 5
 
-Console.WriteLine("Введите число: ");
-int number=Convert.ToInt32(Console.ReadLine());
 
-string strNumber = Math.Abs(number).ToString();
-Console.WriteLine(strNumber.Length);
+int Perevod(int number)
+{
+    int length = 0;
+    string strNumber = Math.Abs(number).ToString();
+    length = strNumber.Length;
+    return length;
+}
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int length = Perevod(number);
+Console.WriteLine(length);
