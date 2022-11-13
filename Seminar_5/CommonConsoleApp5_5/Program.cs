@@ -44,3 +44,34 @@ else
         Console.Write(newArray[i] + ", ");
     }
 }
+
+/* ===Решение от Михаила===
+Для массива с нечетным кол-вом элементов
+if (array.Length % 2 == 1)
+{
+// Инициализация результирующего массива с заданной размерностью
+resultArray = new int[(array.Length / 2) + 1];
+
+// Подсчет произведения пар
+for (int i = 0; i <= (resultArray.Length / 2 + 1); i++)
+{
+// Проверка на центральный элемент
+if (i == (resultArray.Length / 2) + 1)
+{
+resultArray[i] = array[i];
+}
+
+// Произведение пар
+resultArray[i] = array[i] * array[array.Length - i - 1];
+}
+}
+
+return resultArray;
+}
+
+int[] arrayA = new int[4] { 6, 7, 3, 6};
+int[] arrayB = new int[5] { 1, 2, 3, 4, 5};
+
+int[] resultA = GetPairMult(arrayA);
+int[] resultB = GetPairMult(arrayB);
+*/ 
