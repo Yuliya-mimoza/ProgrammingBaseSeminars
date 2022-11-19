@@ -24,4 +24,20 @@ else
     }
 }
 
+/*  ============ Вариант 2 =================
+int n = 7;
 
+int f1 = 0;
+int f2 = 1;
+int f3 = 0;
+
+Console.Write("0 1 ");
+
+for (int i = 2; i < n; i++)
+{
+f3 = f1 + f2;
+Console.Write(f3 + " ");
+f1 = f2;
+f2 = f3;
+}
+*/
