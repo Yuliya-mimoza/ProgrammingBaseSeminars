@@ -5,7 +5,7 @@
 
 string Perevod(int chislo)
 {
-    int rez = 0;
+    /*int rez = 0;
     string str = " ";
     while (chislo != 0)
     {
@@ -13,6 +13,9 @@ string Perevod(int chislo)
         chislo = chislo / 2;
         str = rez + str;
     } 
+    return str;*/
+
+    string str=Convert.ToString(chislo,2);
     return str;
 }
 
