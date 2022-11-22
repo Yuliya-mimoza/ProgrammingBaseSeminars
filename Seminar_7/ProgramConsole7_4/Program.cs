@@ -15,7 +15,7 @@ void FillArray(int[,] array)
                 if (i == j)
                 {
                     sum += array[i, j];
-                }
+                } 
             }
         }
         Console.WriteLine();
