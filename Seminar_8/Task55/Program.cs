@@ -20,10 +20,8 @@ void ReplacementArray(int[,] array)
 {
     for (int j = 0; j < array.GetLength(1); j++)
     {
-
         for (int i = 0; i < array.GetLength(0); i++)
         {
-            //array[i, j] = array[j, i];
             Console.Write(array[i, j] + " ");
         }
         Console.WriteLine();
@@ -31,8 +29,6 @@ void ReplacementArray(int[,] array)
 }
 Console.WriteLine("Введите количество строк равных количеству столбцов в массиве: ");
 int m = Convert.ToInt32(Console.ReadLine());
-//Console.WriteLine("Введите количество столбцов в массиве: ");
-//int n = Convert.ToInt32(Console.ReadLine());
 
 int[,] array = new int[m, m];
 Console.WriteLine("Мы получили массив: ");
