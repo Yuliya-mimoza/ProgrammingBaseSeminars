@@ -12,7 +12,7 @@ void FillArray(int[,] array)
                 Console.Write(array[i, j] + " ");
             }
         }
-        Console.WriteLine();
+        Console.WriteLine(); 
     }
 }
 void PrintArray(int[,] array)
